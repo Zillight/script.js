@@ -1,7 +1,6 @@
-// Variable Reassigning
+// Undefined
+let name;
+console.log(name); //Undefined
 
-const name = "Banji"
-let nickname = "Zillight"
-console.log(name); //Banji
-name = nickname;        // A constanr cannot be reassigned 
-console.log(name); 
+const firstName;
+console.log(name); // Const cannot be left undeclared

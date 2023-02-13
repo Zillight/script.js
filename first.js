@@ -1,6 +1,3 @@
-// Undefined
-let name;
-console.log(name); //Undefined
-
-const firstName;
-console.log(name); // Const cannot be left undeclared
+// Print strings and variables in a single line
+let city = "Abuja.";
+console.log("City:",city);

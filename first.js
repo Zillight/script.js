@@ -1,16 +1,11 @@
-// Typeof()
+// Variable Reassigning
 
-let w = "Hello World";
-let x = 80;
-let y = 8.5;
-let z = true;
+let firstName = "Banji"
+let surname = "Olawole"
+let thirdName = "Olakunle"
 
-console.log(w);
-console.log(x);
-console.log(y);
-console.log(z);
+console.log(firstName + " " + thirdName + " " + surname + ".");
+// Prints Banji Olakunle Olawole
 
-console.log(typeof(w)); // string
-console.log(typeof(x)); // number
-console.log(typeof(y)); // number
-console.log(typeof(z)); // boolean
+thirdName = "Zillight";
+console.log(firstName + " " + thirdName + " " + surname + ".");

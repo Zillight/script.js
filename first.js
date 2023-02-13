@@ -1,7 +1,7 @@
 // Variable Reassigning
 
-let name = "Banji"
+const name = "Banji"
 let nickname = "Zillight"
 console.log(name); //Banji
-name = nickname;
-console.log(name); //Zillight
+name = nickname;        // A constanr cannot be reassigned 
+console.log(name); 

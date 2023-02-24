@@ -8,3 +8,4 @@ console.log("City:" + city + "Time:" + time); //No space
 console.log("City:" + " " + city + " " + "Time:" + " " + time); //No space
 
 //Template literal
+console.log(`City: ${city}`);

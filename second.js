@@ -1,3 +1,2 @@
-const my_name = "Ara";
-console.log(my_name);
-console.log("Hello", my_name);
+const my_name = prompt("Enter your name: ");
+console.log("Hello," + my_name);

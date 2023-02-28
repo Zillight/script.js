@@ -1,8 +1,11 @@
-//Javascript Number Input + Typeof Operator
-//To ensure we have integer input, we use parseInt()
-const prompt = require("prompt-sync")();
+//Operators in JS
+// + Adds and concatenates strings
+// - Subtracts numbers and floats
+// ++ Increment Operators
+// -- Decrement Operators
 
-const age = parseFloat(prompt("Enter you age: "));
-console.log('You are', age); //but prompt saves input as strings
-
-console.log(typeof(age));
+let x = 7;
+console.log(++x); // Prints the incremented
+x = 5;
+console.log(x++); //Prints the initial number before incrementing it
+console.log(x);

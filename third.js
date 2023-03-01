@@ -2,4 +2,5 @@
 
 // >, <, <=, >=, ==, ===, !==
 
-console.log(8>5);
+console.log(8>5); // prints true
+console.log('5'==5); // prints true because == checks the value and not the datatype.

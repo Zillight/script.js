@@ -1,10 +1,5 @@
 // Type Conversion
 
-const result1 = "5" / "2";
-const result2 = "5" / 2;
+let result = "4" - "Hello";
+console.log(result); // Prints NaN - Not a Number
 
-
-console.log(result1); // Prints 2.5
-console.log(result2); //Prints 2.5
-console.log(typeof(result1)); // String / String(Number) = Number. Provided the value is a number 
-console.log(typeof(result2)); // Both prints number

@@ -1,9 +1,10 @@
-// Ternary Operator
+// Ternary Operator Modification
 
-const age = 15;
+const age = 25;
 
-(age>=18) ? console.log('can vote'): console.log('cannot vote');
+result = (age >= 18) ? "can vote." : "cannot vote";
 
-// Used for a single line of conditional statement.
+console.log(result);
 
-//Syntax: (condition) ? execute if true : execute if false(else);
+// Computer inputs the value that meets the condition into result. 
+// Does similar work as if ... else, but preferrably for a single line code.

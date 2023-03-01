@@ -1,8 +1,10 @@
-// Comparison Operator
+// Logical Operator
 
-// >, <, <=, >=, ==, ===, !==
+// && AND Operator - Both
+// || OR Operator - Either
+// ! Not Operator - -Ve 
 
-console.log(8>5); // prints true
-console.log('5'==5); // prints true because == checks the value and not the datatype.
-console.log('5'===5); // prints false bacause === strictly checks the datatype and the value
-console.log('5'!==5); // They are not exactly the same.
+const age = 18;
+const height = 5.5;
+let result = age >= 18 && height < 5;
+console.log(result); // Prints false

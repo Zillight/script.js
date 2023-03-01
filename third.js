@@ -1,6 +1,6 @@
-// Explicit Numeric Conversion
+// Explicit String Conversion
 
-let result = "234";
+let result = 234;
 
 console.log(result);
 

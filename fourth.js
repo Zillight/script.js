@@ -12,3 +12,9 @@ if (score >=50){
     console.log('You Passed!');
     console.log('Congratulations!');
 }
+if (score < 50){
+    console.log('Not Yet!');
+}
+else{
+    console.log('Invalid');
+}

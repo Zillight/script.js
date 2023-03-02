@@ -7,14 +7,11 @@
 
 const prompt = require("prompt-sync")();
 
-const score = parseInt(prompt('Enter your score: '));
-if (score >=50){
-    console.log('You Passed!');
-    console.log('Congratulations!');
-}
-if (score < 50){
-    console.log('Not Yet!');
-}
-else{
-    console.log('Invalid');
+let score = parseInt(prompt(`Enter your score: `));
+if (score < 0 || score > 100){
+    console.log(`Score is invalid.`);
+} else if (score >= 50){
+    console.log(`Congratulation! You passed.`);
+} else {
+    console.log(`Not yet! Try again later.`);
 }

@@ -1,7 +1,10 @@
 // Decision Making
 // While loop
 
-// Syntax: 
-// while (condition){
-//     statement in the while
-// }
+let count = 1;
+while (count < 5){
+    console.log(count);
+    console.log(`Learning while loop`);
+    console.log(`Javascript is fun`);
+    count ++;
+}

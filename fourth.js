@@ -1,7 +1,10 @@
 // Decision Making
 // Do While loop
 
-//syntax:
+let count = 1;
 do {
-    //body of the loop
-} while(condition)
+    console.log(count)
+    count ++;
+} while (count <= 5)
+
+// Prints 1, 2, 3, 4, 5.

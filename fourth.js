@@ -1,18 +1,31 @@
 // Decision Making
 // Switch Statement
 
-// Syntax: 
+// Simple Calculator
 
-// switch (variable/expression){
-//     case value1:
-//         body of case1
-//     break;
-//     case value2:
-//         body of case2
-//     break;
-//     case valueN:
-//         body of caseN
-//     break;
-//     default:
-//         body of default
-// }
+const prompt = require("prompt-sync")();
+
+const operator = prompt("Enter Operator (either + , - , *  or /):"); // take the Operator input
+
+// take the operand input
+
+const number1 = parseFloat(prompt(`Enter first number: `));
+const number2 = parseFloat(prompt(`Enter second number: `));
+let result;
+switch (operator){
+    case `+`:
+        result = number1 + number2;
+    break;
+    case `-`:
+        result = number1 - number2;
+    break;
+    case `*`:
+        result = number1 * number2;
+    break;
+    case `/`:
+        result = number1 / number2;
+    break;
+    default:
+        console.log(`Invalid Operator`);
+}
+console.log(`${number1} ${operator} ${number2} = ${result}.`);

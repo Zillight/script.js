@@ -1,14 +1,7 @@
 // Decision Making
-// While loop
+// Do While loop
 
-const prompt = require('prompt-sync')();
-
-const number = parseFloat(prompt(`Enter a number: `));
-
-let count = 1;
-
-while (count <= 10){
-    let product = number * count;
-    console.log(`${number} * ${count} = ${product}.`);
-    count ++;
-}
+//syntax:
+do {
+    //body of the loop
+} while(condition)

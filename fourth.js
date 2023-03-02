@@ -1,19 +1,18 @@
 // Decision Making
-// if ... else Statement
+// Switch Statement
 
-// Syntax: if (text_condition){
-//      if statement body
-//  }
+// Syntax: 
 
-const prompt = require("prompt-sync")();
-
-let number = parseFloat(prompt(`Enter a number: `))
-
-if (number > 0)
-console.log(`Positive`);
-else if (number < 0)
-console.log(`Negative`);
-else
-console.log(`Zero`);
-
-// You can do without the curly braces if the statement has only one condition.
+// switch (variable/expression){
+//     case value1:
+//         body of case1
+//     break;
+//     case value2:
+//         body of case2
+//     break;
+//     case valueN:
+//         body of caseN
+//     break;
+//     default:
+//         body of default
+// }

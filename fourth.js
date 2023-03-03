@@ -1,9 +1,8 @@
 // Decision Making
-// For ... in loop
+// Break & Continue
 
-// Object in JS
-const language = `Zillight`;
-
-for (let character of language){
-    console.log(character);
+for (let i = 1; i <= 5; i++){
+    console.log(i);
+    break;
+    console.log(`After break`) // This has grey connotation because nothing gets executed after break
 }

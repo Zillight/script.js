@@ -1,15 +1,9 @@
 // Decision Making
 // For ... in loop
 
-const prompt = require(`prompt-sync`)();
-
 // Object in JS
-const student = {
-    name : `Ara Genius`,
-    grade: 10,
-    age: 5
-}
+const student = [`Ara`, `Genius`, `Wonders`]
 
-for (let data in student){
-    console.log(`${data} = ${student[data]}`);
+for (let data of student){
+    console.log(data);
 }

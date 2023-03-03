@@ -20,4 +20,4 @@ while (true) {
 
 }
 
-// Prints 1, 2, 4, 5.
+// Prompts to request for number but only prints even and breaks when 0 or -ve number is encountered. 

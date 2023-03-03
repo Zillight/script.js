@@ -1,10 +1,15 @@
 // Decision Making
-// For Loop
+// For ... in loop
 
 const prompt = require(`prompt-sync`)();
-const number = parseInt(prompt(`Enter a number: `));
 
-for (let count = 1; count <= 10; count++){
-    let product = count * number;
-    console.log(`${number} * ${count} = ${product}.`)
+// Object in JS
+const student = {
+    name : `Ara Genius`,
+    grade: 10,
+    age: 5
+}
+
+for (let data in student){
+    console.log(`${data} = ${student[data]}`);
 }

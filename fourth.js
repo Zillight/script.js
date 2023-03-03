@@ -8,7 +8,8 @@ const prompt = require(`prompt-sync`)();
 while (true){
     let number = parseFloat(prompt(`Enter a number: `));
     if (number < 0){
-        break; // Since this a single body conditional statement, you can do without the semicolon
+        console.log(`Negative`);
+        break; 
     }
     console.log(number);
 }

@@ -1,10 +1,7 @@
 // Decision Making
-// Do While loop
+// For Loop
 
-let count = 1;
-do {
-    console.log(count)
-    count ++;
-} while (count <= 5)
-
-// Prints 1, 2, 3, 4, 5.
+// syntax:
+// for (initialization; CSSConditionRule; increment) {
+//     body of the loop
+// }

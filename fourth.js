@@ -2,8 +2,8 @@
 // For ... in loop
 
 // Object in JS
-const student = [`Ara`, `Genius`, `Wonders`]
+const language = `Zillight`;
 
-for (let data of student){
-    console.log(data);
+for (let character of language){
+    console.log(character);
 }

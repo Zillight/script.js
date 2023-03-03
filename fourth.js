@@ -1,7 +1,10 @@
 // Decision Making
 // For Loop
 
-for (let i = 1; i <= 5; i++){
-    console.log(i);
-    console.log(`javascript is doable`);
+const prompt = require(`prompt-sync`)();
+const number = parseInt(prompt(`Enter a number: `));
+
+for (let count = 1; count <= 10; count++){
+    let product = count * number;
+    console.log(`${number} * ${count} = ${product}.`)
 }

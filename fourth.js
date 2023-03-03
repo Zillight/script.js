@@ -1,13 +1,16 @@
 // Decision Making
 // Break & Continue
 
-// Break statement is used with conditional statement(if statement)
+// Break with While
 
-for (let i = 1; i <= 5; i++){
-    if (i == 3){
-        break;
+const prompt = require(`prompt-sync`)();
+
+while (true){
+    let number = parseFloat(prompt(`Enter a number: `));
+    if (number < 0){
+        break; // Since this a single body conditional statement, you can do without the semicolon
     }
-    console.log(i);
+    console.log(number);
 }
 
-// Prints just 1 and 2 then breaks when 3 was encountered.
+// Keeps prompting to request for number then prints, and continues until a -ve number is encountered. 

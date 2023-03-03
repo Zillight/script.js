@@ -1,17 +1,15 @@
 // Decision Making
 // Break & Continue
 
-// Continue with While
+// Break & Continue with While
 
 const prompt = require(`prompt-sync`)();
 
-while (true){
-    let number = parseFloat(prompt(`Enter a number: `));
-    if (number < 0){
-        console.log(`Negative`);
-        continue; 
+for (let i = 1; i <= 5; i++){
+    if (i == 3){
+        continue;
     }
-    console.log(number);
+    console.log(i);
 }
 
-// Continue is direct opposite of break in the sense that it skips when the conditional statement is reached but continues with the code.
+// Prints 1, 2, 4, 5.

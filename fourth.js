@@ -1,15 +1,23 @@
 // Decision Making
 // Break & Continue
 
-// Break & Continue with While
+// Break & Continue with For & While
 
 const prompt = require(`prompt-sync`)();
 
-for (let i = 1; i <= 5; i++){
-    if (i == 3){
+while (true) {
+    let number = parseFloat(prompt(`Enter a number: `));
+    if (number <= 0){
+        console.log(`Zero. Negative!
+    The END!`);
+        break;
+    }
+    if (number % 2 != 0){
+        console.log(`Odd! Try again.`);
         continue;
     }
-    console.log(i);
+    console.log(number);
+
 }
 
 // Prints 1, 2, 4, 5.

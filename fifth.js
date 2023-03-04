@@ -1,11 +1,9 @@
-// Arrow function with return values
+// Variable Scope (Local & Global)
 
-const addNumbers = (a, b) => {
-    let result = a + b;
-    return result;
+function addNumbers(n1, n2){
+    let result = n1 = n2; // Local variable
+    console.log(result);
 }
-console.log(addNumbers(70, 80));
-let output = addNumbers(20, 30);
-console.log(`The sum = ${output}`);
-
-// prints 150 and 50 respectively.
+let result = 123; // Global variable
+addNumbers(10, 7);
+console.log(result);

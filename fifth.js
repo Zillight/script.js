@@ -2,7 +2,7 @@
 // Making Functions accept parameters
 
 function greet(name){
-    console.log(`Hello`, name);
+    console.log(`Hello ` + name);
 }
 greet(`Ara`);
 greet(`Zil`);

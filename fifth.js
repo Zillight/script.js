@@ -1,11 +1,14 @@
-// Variable Scope (Local & Global)
-// Avoid using global variable because it can be be change anywhere within the program.
+// Block Scope
+// Restricts the variable inside the block
 
-let message = `Hello`;
-function changeGreeting(){
-    message = `Hi`;
+const addNumbers = (n1, n2) => {
+    let result = n1 + n2;
+    console.log(result);
+    if (result > 10){
+        let result1 = `Positive`;
+        console.log(result1);
+    }
+    // console.log(result1);    // Prints error
 }
-console.log(message);   // Hello
-changeGreeting();       //The variable wont change if the function is not called
-console.log(message);   // Hi
-
+// console.log(result1);        // result prints error anywhere else other than inside the block
+addNumbers(4,9);

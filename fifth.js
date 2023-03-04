@@ -6,6 +6,6 @@ const addNumbers = (a, b) => {
 }
 console.log(addNumbers(70, 80));
 let output = addNumbers(20, 30);
-console.log(output);
+console.log(`The sum = ${output}`);
 
 // prints 150 and 50 respectively.

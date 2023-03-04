@@ -1,13 +1,9 @@
-// Functions in JS
-// Making Functions accept parameters
+// Built-in Functions in JS
 
-// Alternatively, we can return the result within the ()
+// The square root function
 
-function addNumbers(num1, num2){
-    let result = num1 + num2;
-    return result;
-}
+let num = 9;
+let squareRoot = Math.sqrt(num); // Note that the M in Math has to be in capital
+console.log(`The Square root of ${num} is ${squareRoot}.`);
 
-console.log(addNumbers(77, 33));
-let output = addNumbers(50, 50);
-console.log(output);
+// prints The Square root of 9 is 3

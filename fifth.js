@@ -1,5 +1,7 @@
-// Arrow function with parameters
+// Arrow function with single parameters
 
-const addNumbers = (a, b) => console.log(a + b); 
+const square = a => console.log(a**3);
 
-addNumbers(7, 3);
+square(2);
+
+// prints 8.

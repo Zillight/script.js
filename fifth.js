@@ -3,7 +3,7 @@
 
 function addNumbers(num1, num2){
     let result = num1 + num2;
-    console.log(`sum =`, result);
+    console.log(`sum = `+ result);
 }
 
 addNumbers(20,10);

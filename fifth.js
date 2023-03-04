@@ -1,8 +1,10 @@
 // Functions in JS
+// Making Functions accept parameters
 
-function greet(){
-    console.log(`Hello World`);
+function greet(name){
+    console.log(`Hello`, name);
 }
-greet();
+greet(`Ara`);
+greet(`Zil`);
 
 // function only prints when it is called

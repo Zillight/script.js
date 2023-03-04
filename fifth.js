@@ -1,14 +1,8 @@
-// Javascript Arrow Functions est. 2015
+// Arrow function with braces
 
-// Old way
-
-function greet (){
-    console.log(`Bonjour`);
+const greet = () => {
+    console.log(`Hello There.`);
+    console.log(`How are you?`);
 }
 
 greet();
-
-// new way
-const salut = () => console.log(`Bienvenue`);
-
-salut();

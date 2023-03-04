@@ -1,10 +1,11 @@
 // Variable Scope (Local & Global)
-// To make local variable global
+// Avoid using global variable because it can be be change anywhere within the program.
 
-let result;
-function addNumbers(n1, n2){
-    result = n1 = n2; // Local variable... ensure that it is not declared here
-    console.log(result);
+let message = `Hello`;
+function changeGreeting(){
+    message = `Hi`;
 }
-addNumbers(10, 7);
-console.log(result);
+console.log(message);   // Hello
+changeGreeting();       //The variable wont change if the function is not called
+console.log(message);   // Hi
+

@@ -1,9 +1,14 @@
-// Built-in Functions in JS
+// Javascript Arrow Functions est. 2015
 
-// The square root function
+// Old way
 
-let num = 9;
-let squareRoot = Math.sqrt(num); // Note that the M in Math has to be in capital
-console.log(`The Square root of ${num} is ${squareRoot}.`);
+function greet (){
+    console.log(`Bonjour`);
+}
 
-// prints The Square root of 9 is 3
+greet();
+
+// new way
+const salut = () => console.log(`Bienvenue`);
+
+salut();

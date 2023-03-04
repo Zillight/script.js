@@ -1,8 +1,11 @@
-// Arrow function with single parameters
+// Arrow function with return values
 
-const square = a => console.log(a**3);
+const addNumbers = (a, b) => {
+    let result = a + b;
+    return result;
+}
+console.log(addNumbers(70, 80));
+let output = addNumbers(20, 30);
+console.log(output);
 
-square(2);
-square(5);
-
-// prints 8 and 125
+// prints 150 and 50 respectively.

@@ -1,8 +1,5 @@
-// Arrow function with braces
+// Arrow function with parameters
 
-const greet = () => {
-    console.log(`Hello There.`);
-    console.log(`How are you?`);
-}
+const addNumbers = (a, b) => console.log(a + b); 
 
-greet();
+addNumbers(7, 3);

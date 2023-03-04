@@ -1,10 +1,9 @@
 // Functions in JS
 // Making Functions accept parameters
 
-function greet(name){
-    console.log(`Hello ` + name);
+function addNumbers(num1, num2){
+    let result = num1 + num2;
+    console.log(`sum = ${result}`);
 }
-greet(`Ara`);
-greet(`Zil`);
 
-// function only prints when it is called
+addNumbers(20,10);

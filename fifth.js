@@ -1,6 +1,6 @@
 // Functions in JS
 
-// Syntax:
-// function functionName(){
-//     function body
-// }
+function greet(){
+    console.log(`Hello World`);
+}
+greet();

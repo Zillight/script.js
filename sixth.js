@@ -1,7 +1,7 @@
 // Strings Methods
-// Trim() Method
+// Search() Method
 
-const letter = `        Zillight`;
-const result = letter.trim();
-// cleans up the white spaces in the string
-console.log(result); 
+const letter = `Javascript is fun`;
+const result = letter.search(`fun`);
+// seraches for the substring in the given string
+console.log(result); // 14

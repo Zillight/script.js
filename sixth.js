@@ -1,11 +1,7 @@
-// Object Methods - contains functions
+// Strings
 
-const person = {
-    name:'Ara',     // Object properties
-    age: 2,
-    greet: function(){
-        console.log("Hello", person.name);
-    }
-}
+const age = 20;
+const text = `I am ${age}years old`;
 
-person.greet(); // Prints Hello Ara
+console.log(text); // I am 20years old
+console.log(typeof(text)); // string

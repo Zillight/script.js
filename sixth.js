@@ -1,8 +1,7 @@
 // Strings Methods
-// 2. concat() Method
+// 2. Replace() Method
 
-const text1 = `Javascript`;
-const text2 = `programming`;
+const text = `Hello, my name is Zillight`;
 
-const result = text1.concat(text2);
-console.log(result); // Javascriptprogramming
+const result = text.replace(`Hello`, `Bonjour`);
+console.log(result); // Bonjour, my name is Zillight

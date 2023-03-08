@@ -7,3 +7,4 @@ const person = {
 }
 
 console.log(person); // Prints { name: 'Ara', age: 2 }
+console.log(typeof(person)); // Prints object

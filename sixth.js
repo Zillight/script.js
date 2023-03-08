@@ -1,11 +1,11 @@
-// Objects in JS
-// Accessing Object properties using Bracket Notation
+// Object Methods - contains functions
 
 const person = {
     name:'Ara',     // Object properties
-    age: 2
+    age: 2,
+    greet: function(){
+        console.log("Hello", person.name);
+    }
 }
 
-console.log(person); // Prints 2
-console.log(person['name']); // Prints Ara
-console.log(person['age']); // Prints 2
+person.greet(); // Prints Hello Ara

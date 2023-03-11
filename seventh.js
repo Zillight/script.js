@@ -1,5 +1,6 @@
 // Array
+// Using Array Index
 
-const arr = ["lion", 'eagle', 22, 7.5, true, `wisdom`];
+const arr = ["h", 'e', `l`, 'l', 'o'];
 
-console.log(arr); // [ 'lion', 'eagle', 22, 7.5, true, 'wisdom' ]
+console.log(arr[2]); // prints l

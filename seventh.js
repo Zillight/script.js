@@ -1,5 +1,10 @@
 // Array
 
-const animal = [ 'lion', 'eagle', 'dove'];
+const numbers = [ '1', '2', '3'];
 
-console.log(animal); // [ 'lion', 'eagle', 'dove' ]
+console.log(numbers); // [ '1', '2', '3' ]
+
+const number = [ 1, 2, 3];
+
+console.log(number); // [ 1, 2, 3 ]
+

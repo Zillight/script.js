@@ -1,9 +1,6 @@
 // Array
-// pop() method
-// Remove an Element from the Array
+// Assigning Array parameters  Using the keyword
 
-const routine = [`work`, `eat`, `sleep`, `do`];
+const routine = new Array(`work`, `eat`, `sleep`);
 
-console.log(routine); // Prints [ 'work', 'eat', 'sleep', 'do' ]
-routine.pop();
-console.log(routine); // Prints [ 'work', 'eat', 'sleep' ]
+console.log(routine); // Prints [ 'work', 'eat', 'sleep']

@@ -1,9 +1,9 @@
 // Array
-// Changing the Elements in Array
+// pop() method
+// Remove an Element from the Array
 
-const routine = [`eat`, `sleep`];
+const routine = [`work`, `eat`, `sleep`, `do`];
 
-routine[1] = `exercise`;
-console.log(routine); // Prints [ 'eat', 'exercise' ]
-routine.push(`pray`);
-console.log(routine); // Prints [ 'eat', 'exercise', 'pray' ]
+console.log(routine); // Prints [ 'work', 'eat', 'sleep', 'do' ]
+routine.pop();
+console.log(routine); // Prints [ 'work', 'eat', 'sleep' ]

@@ -1,5 +1,7 @@
 // Array
-// Array length
-const arr = ["h", 'e', `l`, 'l', 'o'];
+// Adding Elements to Array
 
-console.log(arr.length); // prints 5
+let routine = [`eat`, `sleep`];
+
+routine.push(`exercise`);
+console.log(routine); // Prints [ 'eat', 'sleep', 'exercise' ]

@@ -5,3 +5,6 @@ const fruits = [`apple`, `mango`, `banana`];
 
 fruits.pop();
 console.log(fruits); // Logs [ 'apple', 'mango' ]
+
+fruits.shift();
+console.log(fruits); // Logs [ 'mango' ]

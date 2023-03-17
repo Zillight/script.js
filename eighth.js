@@ -1,6 +1,6 @@
 // Array Methods
-// 6. splice() method
+// 7. includes() method
 
 const arr = ["Hello", "Bonjour", 'Salut', 'Oui', 'Non'];
-arr.splice(0, 2, 'Hi') // splice (0,2) removes the 0th and 1st index element and replaces them with the new string 
-console.log(arr); // Prints [ 'Hi', 'Salut', 'Oui', 'Non' ]
+const result = arr.includes('Hello'); // Checks if the string is contained in the array.
+console.log(result); // Prints true

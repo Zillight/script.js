@@ -1,7 +1,6 @@
 // Array Methods
-// 3. concat() method
+// 4. sort() method
 
-const array1 = ["I", "am"];
-const array2 = ['Banji', `Zillight`];
-const result = array1.concat(array2);
-console.log(result); // Prints [ 'I', 'am', 'Banji', 'Zillight' ]
+const fruits = ["mango", "apple", 'banana'];
+fruits.sort(); // Sorts alphabetically
+console.log(fruits); // Prints [ 'apple', 'banana', 'mango' ]

@@ -3,8 +3,11 @@
 
 const number = [2, 4, 7, 9, 12];
 
-const result = number.find(function(element){
-    return element > 5;
-});
+// const result = number.find(function(element){
+//     return element > 5;
+// });
 
+// console.log(result); // prints 7
+
+const result = number.find(element => element > 5);
 console.log(result); // prints 7

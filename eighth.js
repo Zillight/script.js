@@ -1,5 +1,5 @@
 // Array Methods
-// 2. pop() and shift() method
+// 2. shift() method
 
 const fruits = [`apple`, `mango`, `banana`];
 

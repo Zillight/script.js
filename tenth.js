@@ -10,8 +10,14 @@
     // }
     
     // Using map()
+// const names = [`Banji`, `Doyin`, `Ara`];
+// const fullNames = names.map(function(name){
+//     return name + ` Olawole`;
+// })
+// console.log(fullNames)
+
+// Also
+
 const names = [`Banji`, `Doyin`, `Ara`];
-const fullNames = names.map(function(name){
-    return name + ` Olawole`;
-})
-console.log(fullNames)
+const fullName = names.map(name => name + ` Olawole`);
+console.log(fullName);

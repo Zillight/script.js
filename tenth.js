@@ -1,25 +1,8 @@
-// for (let count = '#'; count.length<8; count+='#')
-// console.log(count)
+// map() method
 
-// for (let n = 1; n <= 100; n++){
-//     let output = '';
-//     if (n % 3 == 0) output += 'Fizz';
-//     if (n % 5 == 0) output += 'Buzz';
-//     console.log(output || n);
-// }
-
-let size = 8;
-
-let board = '';
-
-for (let width = 0; width < size; width++){
-    for (let length = 0; length < size; length++){
-        if ((width + length) % 2 == 0){
-            board+= ' ';
-        } else {
-            board += '#';
-        }
-    }
-    board += "\n";
+const numbers = [1, 2, 3, 4, 5];
+let squared = [];
+for  (let i = 0; i < numbers.length; i++){
+    squared.push(numbers[i]*numbers[i]);
 }
-console.log(board);
+console.log(squared)

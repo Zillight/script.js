@@ -1,1 +1,1 @@
-return number * number
+Ara

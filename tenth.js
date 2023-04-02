@@ -20,8 +20,12 @@ console.log(squared)
 // console.log(result)
 
 // Also... with arrow function.
-const result = numbers.map((number) => {
-    return number * number
-})
-console.log(result)
+// const result = numbers.map((number) => {
+//     return number * number
+// })
+// console.log(result)
 
+// Shorthand Arrow function
+
+const result = numbers.map(number => number * number)
+console.log(result)

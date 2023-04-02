@@ -6,3 +6,10 @@ for  (let i = 0; i < numbers.length; i++){
     squared.push(numbers[i]*numbers[i]);
 }
 console.log(squared)
+
+// using Map()
+
+const result=numbers.map(function(number){
+    return number * number
+})
+console.log(result)

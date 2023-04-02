@@ -9,7 +9,12 @@ console.log(squared)
 
 // using Map()
 
-const result=numbers.map(function(number){
-    return number * number
-})
+// const result=numbers.map(function(number){
+//     return number * number
+// })
+// console.log(result)
+
+// Also
+const result = numbers.map(function sqaure(number) {
+    return number * number})
 console.log(result)

@@ -29,3 +29,6 @@ console.log(squared)
 
 const result = numbers.map(number => number * number)
 console.log(result)
+
+// This indicates that Arrow function can work without the parenthesis around the parameter,
+// when there is only one parameter.
